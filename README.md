@@ -10,3 +10,6 @@ before running Cura again. Run the `config-commit` script to do this. Changes
 can be inspected using the `config-status` and `config-diff` scripts, but be
 wary that Cura will jumble the configuration files. It seems that the options
 are written in random order each time.
+
+To upgrade Cura, put the new AppImage in this folder and change the symbolic
+link `cura` to point to it.
