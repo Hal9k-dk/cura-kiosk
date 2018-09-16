@@ -1,9 +1,9 @@
 [Desktop Entry]
 Name=Cura
 Comment=
-Exec=/home/hal9k/cura/run-cura
+Exec=/home/hal9k/cura-kiosk/run-cura
 # Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-Icon=/home/hal9k/cura/Logo_For_Cura_Software.png
+Icon=/home/hal9k/cura-kiosk/Logo_For_Cura_Software.png
 Terminal=false
 Type=Application
 NoDisplay=true
