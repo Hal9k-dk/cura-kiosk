@@ -1,0 +1,7 @@
+#!/bin/sh -exu
+cd $HOME/.config/cura
+git checkout .
+git clean -f
+cd $HOME/.local/share/cura
+git checkout .
+git clean -f

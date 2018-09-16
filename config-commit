@@ -1,0 +1,12 @@
+#!/bin/sh -exu
+set +x
+echo -n "Commit message: "
+read msg
+set -x
+[ -n "$msg" ] || exit
+cd $HOME/.config/cura
+git add -A
+git commit -m "$msg"
+cd $HOME/.local/share/cura
+git add -A
+git commit -m "$msg"

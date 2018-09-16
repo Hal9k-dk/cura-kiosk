@@ -1,0 +1,5 @@
+#!/bin/sh -exu
+cd $HOME/.config/cura
+git diff
+cd $HOME/.local/share/cura
+git diff
