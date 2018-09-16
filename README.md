@@ -1,7 +1,7 @@
 # Cura configuration @ hal9k
 
 Configuration files under `.config/cura` and `.local/share/cura` are kept in
-Git repositories. When Cura is launched, all untracked files and deleted and
+Git repositories. When Cura is launched, all untracked files are deleted and
 changes are discarded. The desktop icon runs the `run-cura` which runs
 `config-reset` before launching Cura.
 
